@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  app:
+    build: .
+    command: npm run build
+    environment:
+      NODE_ENV: production
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/home/app/appDir
+      - /home/app/appDir/node_modules
