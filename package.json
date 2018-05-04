@@ -1,14 +1,15 @@
 {
   "name": "docker-node-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "build": "gulp copy; gulp watch & tsc-watch -p . --onSuccess \"node dist/index.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["docker", "node", "typescript", "starter", "docker node typescript"],
   "author": "Stephen Gardner (opensourceaugie@gmail.com)",
   "license": "ISC",
+  "homepage": "https://github.com/stephengardner/docker-node-typescript",
   "dependencies": {
     "express": "^4.10.2",
     "gulp": "^3.9.1",
